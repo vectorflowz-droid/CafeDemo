@@ -98,7 +98,7 @@ export const Hero = ({ onReserveClick }: LayoutProps) => (
   <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
     <div className="absolute inset-0 z-0">
       <img
-        src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=2070"
+        src="/story.jpg"
         alt="Coffee"
         className="w-full h-full object-cover opacity-40 grayscale-[0.3]"
         referrerPolicy="no-referrer"
