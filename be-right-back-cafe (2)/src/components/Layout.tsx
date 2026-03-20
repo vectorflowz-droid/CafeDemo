@@ -167,7 +167,7 @@ export const About = () => (
     <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
       <div className="relative" style={{ backgroundColor: '#f3f4f6', borderRadius: '8px' }}>
         <img
-          src="https://drive.google.com/thumbnail?id=1Cj1fxQomCAsNsTa7055pyo592EUfaZmk&sz=w1000"
+          src="https://lh3.googleusercontent.com/u/0/d/1Cj1fxQomCAsNSta7055pyo592EUfaZmk"
           alt="Our Story"
           style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '8px' }}
           className="shadow-2xl"
