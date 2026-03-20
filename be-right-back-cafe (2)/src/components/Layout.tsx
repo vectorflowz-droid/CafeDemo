@@ -165,9 +165,6 @@ export const Hero = ({ onReserveClick }: LDayoutProps) => (
 export const About = () => (
   <section id="about" className="py-24 px-6 bg-cream">
     <div className="max-w-3xl mx-auto text-center"
-    
-
-      <div>
         <h2 className="text-gold uppercase tracking-widest text-sm font-semibold mb-4">Our Story</h2>
         <h3 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">
           Where Heritage Meets <br />
