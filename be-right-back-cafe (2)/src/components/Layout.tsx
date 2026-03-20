@@ -164,8 +164,8 @@ export const Hero = ({ onReserveClick }: LDayoutProps) => (
 
 export const About = () => (
   <section id="about" className="py-24 px-6 bg-cream">
-    <div className="max-w-3xl mx-auto text-center"
-        <h2 className="text-gold uppercase tracking-widest text-sm font-semibold mb-4">Our Story</h2>
+<div className="max-w-3xl mx-auto text-center">        
+  <h2 className="text-gold uppercase tracking-widest text-sm font-semibold mb-4">Our Story</h2>
         <h3 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">
           Where Heritage Meets <br />
           <span className="italic">Modernity.</span>
@@ -178,17 +178,6 @@ export const About = () => (
             We source our beans from sustainable farms across Southeast Asia, roasting them locally in small batches to ensure every cup tells a story of its origin. Our space is designed to be your urban escape—minimalist, warm, and inviting.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-2 gap-8">
-          <div>
-            <span className="block text-3xl font-serif text-gold mb-1">100%</span>
-            <span className="text-xs uppercase tracking-widest opacity-60">Arabica Beans</span>
-          </div>
-          <div>
-            <span className="block text-3xl font-serif text-gold mb-1">Local</span>
-            <span className="text-xs uppercase tracking-widest opacity-60">Artisans</span>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 );
