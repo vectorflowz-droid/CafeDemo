@@ -94,11 +94,11 @@ export const Navbar = ({ onReserveClick }: LayoutProps) => {
   );
 };
 
-export const Hero = ({ onReserveClick }: LayoutProps) => (
+export const Hero = ({ onReserveClick }: LDayoutProps) => (
   <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
     <div className="absolute inset-0 z-0">
       <img
-        src="/story.jpg"
+        src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=2078"
         alt="Coffee"
         className="w-full h-full object-cover opacity-40 grayscale-[0.3]"
         referrerPolicy="no-referrer"
@@ -167,7 +167,7 @@ export const About = () => (
     <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
       <div className="relative" style={{ backgroundColor: '#f3f4f6', borderRadius: '8px' }}>
         <img
-          src="https://lh3.googleusercontent.com/u/0/d/1Cj1fxQomCAsNSta7055pyo592EUfaZmk"
+          src="/story.jpg"
           alt="Our Story"
           style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '8px' }}
           className="shadow-2xl"
