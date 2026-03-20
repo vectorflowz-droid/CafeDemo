@@ -164,18 +164,9 @@ export const Hero = ({ onReserveClick }: LDayoutProps) => (
 
 export const About = () => (
   <section id="about" className="py-24 px-6 bg-cream">
-    <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-      <div className="relative" style={{ backgroundColor: '#f3f4f6', borderRadius: '8px' }}>
-        <img
-          src="/story.jpg"
-          alt="Our Story"
-          style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '8px' }}
-          className="shadow-2xl"
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-        <div className="absolute -bottom-8 -right-8 w-48 h-48 border-2 border-gold hidden lg:block"></div>
-      </div>
+    <div className="max-w-3xl mx-auto text-center"
+    
+
       <div>
         <h2 className="text-gold uppercase tracking-widest text-sm font-semibold mb-4">Our Story</h2>
         <h3 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">
